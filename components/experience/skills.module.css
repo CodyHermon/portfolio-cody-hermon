@@ -17,3 +17,9 @@
   font-size: 4em;
   color: var(--color-grey-50);
 }
+
+@media (max-width: 768px) {
+  .skills li {
+    font-size: 2em;
+  }
+}
