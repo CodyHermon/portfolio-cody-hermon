@@ -20,3 +20,13 @@
   font-size: 26px;
   margin-right: 24px;
 }
+
+@media (max-width: 768px) {
+  .header ul {
+    gap: 0.5rem;
+  }
+
+  .header a {
+    font-size: var(--size-5);
+  }
+}
