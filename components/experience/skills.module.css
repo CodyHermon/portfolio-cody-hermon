@@ -1,0 +1,19 @@
+.skills {
+  display: flex;
+  background-color: var(--color-grey-800);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.skills ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills li {
+  list-style-type: none;
+  margin-right: 24px;
+  height: 1em;
+  font-size: 4em;
+  color: var(--color-grey-50);
+}

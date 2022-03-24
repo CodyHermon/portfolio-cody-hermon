@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  border-top: solid var(--color-grey-900);
+  padding-top: 24px;
+  margin: 0 30%;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  display: flex;
+  color: var(--color-grey-900);
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  font-size: 2em;
+  padding: 0;
+}
+
+.links a {
+  margin-right: 16px;
+}
+
+.links a:hover {
+  color: var(--color-grey-700);
+}

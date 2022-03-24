@@ -1,0 +1,42 @@
+.container {
+  color: var(--color-grey-900);
+}
+
+.header {
+  color: var(--color-grey-900);
+}
+
+.content {
+  background-color: var(--color-grey-800);
+  border-radius: 16px;
+  padding: 16px;
+  color: var(--color-grey-100);
+  margin-bottom: 40px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 6px;
+  color: var(--color-grey-100) !important;
+  background-color: var(--color-grey-900);
+}
+
+.button:hover {
+  color: var(--color-grey-900) !important;
+  background-color: var(--color-grey-100);
+  border: var(--color-grey-900) solid;
+}
+
+.button:active {
+  color: var(--color-grey-100) !important;
+  background-color: var(--color-grey-900);
+}
