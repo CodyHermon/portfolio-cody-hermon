@@ -7,7 +7,7 @@ const nextConfig = (phase) => {
     return {
       env: {
         mongodb_username: process.env.USERNAME,
-        mongodb_password: process.env.ADMIN,
+        mongodb_password: process.env.PASSWORD,
         mongodb_clustername: process.env.CLUSTER,
         mongodb_database: process.env.DATABASE,
       },
@@ -16,7 +16,7 @@ const nextConfig = (phase) => {
   return {
     env: {
       mongodb_username: process.env.USERNAME,
-      mongodb_password: process.env.ADMIN,
+      mongodb_password: process.env.PASSWORD,
       mongodb_clustername: process.env.CLUSTER,
       mongodb_database: process.env.DATABASE,
     },
