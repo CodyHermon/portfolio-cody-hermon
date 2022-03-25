@@ -23,7 +23,7 @@
 
 @media (max-width: 768px) {
   .header {
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .header ul {
@@ -32,5 +32,6 @@
 
   .header a {
     font-size: var(--size-5);
+    margin: 0;
   }
 }
