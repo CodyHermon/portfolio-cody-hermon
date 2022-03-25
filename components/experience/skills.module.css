@@ -21,5 +21,6 @@
 @media (max-width: 768px) {
   .skills li {
     font-size: 2em;
+    width: 100%;
   }
 }

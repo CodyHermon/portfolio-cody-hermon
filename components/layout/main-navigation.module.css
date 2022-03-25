@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+
   .header ul {
     gap: 0.5rem;
   }
