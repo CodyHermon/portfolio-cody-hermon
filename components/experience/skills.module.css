@@ -21,11 +21,12 @@
 
 @media (max-width: 768px) {
   .skills {
+    margin: 0;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 
   .skills li {
     font-size: 2em;
-    width: 100%;
   }
 }

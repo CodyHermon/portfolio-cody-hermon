@@ -1,3 +1,11 @@
 .container {
+  display: block;
   color: var(--color-grey-900);
+}
+
+@media (max-width: 768px) {
+  .container h2 {
+    display: flex;
+    justify-content: center;
+  }
 }
