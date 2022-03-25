@@ -71,4 +71,8 @@
     font-size: 1em;
     text-align: center;
   }
+
+  .actions {
+    justify-content: center;
+  }
 }
