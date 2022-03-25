@@ -63,6 +63,10 @@
 }
 
 @media (max-width: 768px) {
+  .controls {
+    display: block;
+  }
+
   .contact h1 {
     font-size: 1em;
     text-align: center;

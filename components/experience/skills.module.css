@@ -1,5 +1,6 @@
 .skills {
   display: flex;
+  flex-wrap: wrap;
   background-color: var(--color-grey-800);
   border-radius: 16px;
   padding: 16px;
@@ -19,6 +20,10 @@
 }
 
 @media (max-width: 768px) {
+  .skills {
+    flex-wrap: nowrap;
+  }
+
   .skills li {
     font-size: 2em;
     width: 100%;

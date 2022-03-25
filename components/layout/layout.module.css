@@ -1,3 +1,15 @@
 .main {
   margin: 0 30%;
 }
+
+@media (max-width: 900px) {
+  .main {
+    margin: 0 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin: 0 0;
+  }
+}
