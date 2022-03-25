@@ -4,6 +4,8 @@
   background-color: var(--color-grey-800);
   border-radius: 16px;
   padding: 16px;
+
+  justify-content: space-between;
 }
 
 .skills ul {
@@ -20,13 +22,8 @@
 }
 
 @media (max-width: 768px) {
-  .skills {
-    margin: 0;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-
   .skills li {
+    margin: 0;
     font-size: 2em;
   }
 }
