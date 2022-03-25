@@ -3,7 +3,18 @@
 }
 
 .header {
+  display: flex;
   color: var(--color-grey-900);
+  margin: 40px 0;
+}
+
+.header h1 {
+  margin-left: 40px;
+}
+
+.avatar {
+  border: 2px solid var(--color-grey-900) !important;
+  border-radius: 50%;
 }
 
 .content {
@@ -42,6 +53,30 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+  .header h1 {
+    margin-left: 0;
+  }
+
+  .button {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+  .header h1 {
+    margin-left: 0;
+  }
+
   .button {
     max-width: 100px;
   }

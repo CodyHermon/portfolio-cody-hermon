@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import classes from './hero.module.css';
@@ -5,7 +6,16 @@ import classes from './hero.module.css';
 const Hero = () => {
   return (
     <section className={classes.container}>
-      <h1 className={classes.header}>Hello, I&apos;m Cody.</h1>
+      <div className={classes.header}>
+        <Image
+          className={classes.avatar}
+          src='/images/cody.jpg'
+          alt='cody'
+          width={176}
+          height={176}
+        />
+        <h1>Hello, I&apos;m Cody.</h1>
+      </div>
       <div className={classes.content}>
         <p>
           I&apos;m a frontend developer based in Vancouver, BC. I graduated with
