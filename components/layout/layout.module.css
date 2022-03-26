@@ -4,12 +4,12 @@
 
 @media (max-width: 900px) {
   .main {
-    margin: 0 10%;
+    margin: 40px 10%;
   }
 }
 
 @media (max-width: 768px) {
   .main {
-    margin: 0 5%;
+    margin: 40px 5%;
   }
 }
