@@ -99,7 +99,7 @@ const ContactForm = () => {
 
   return (
     <section className={classes.contact}>
-      <h1>Have any questions?</h1>
+      <h1>Have any questions or comments?</h1>
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
