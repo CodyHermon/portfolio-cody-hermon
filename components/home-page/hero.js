@@ -23,8 +23,8 @@ const Hero = () => {
           University.
         </p>
         <p>
-          I always had a passion for the programming side of IT, so I decided to
-          pursue the career of a developer.
+          I have always had a passion for the programming side of IT, so I
+          decided to pursue the career of a developer.
         </p>
       </div>
       <div className={classes.buttonsContainer}>
