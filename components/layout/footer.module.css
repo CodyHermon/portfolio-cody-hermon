@@ -27,3 +27,15 @@
 .links a:hover {
   color: var(--color-grey-700);
 }
+
+@media (max-width: 900px) {
+  .footer {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 0 5%;
+  }
+}

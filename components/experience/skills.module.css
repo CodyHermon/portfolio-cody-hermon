@@ -4,7 +4,6 @@
   background-color: var(--color-grey-800);
   border-radius: 16px;
   padding: 16px;
-
   justify-content: space-between;
 }
 
@@ -16,14 +15,25 @@
 .skills li {
   list-style-type: none;
   margin-right: 24px;
-  height: 1em;
   font-size: 4em;
   color: var(--color-grey-50);
+
+  text-align: center;
+}
+
+.skills p {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 8px 0;
 }
 
 @media (max-width: 768px) {
   .skills li {
     margin: 0;
     font-size: 2em;
+  }
+
+  .skills p {
+    font-size: 10px;
   }
 }

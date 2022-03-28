@@ -4,13 +4,14 @@
 
 .header {
   display: flex;
+  flex-direction: column;
   color: var(--color-grey-900);
   margin: 40px 0;
   align-items: center;
 }
 
 .header h1 {
-  margin: auto;
+  margin: 24px auto;
 }
 
 .avatar {
@@ -54,11 +55,6 @@
 }
 
 @media (max-width: 768px) {
-  .header {
-    display: block;
-    text-align: center;
-  }
-
   .header h1 {
     margin-left: 0;
   }
@@ -72,10 +68,6 @@
   .header {
     display: block;
     text-align: center;
-  }
-
-  .header h1 {
-    margin-left: 0;
   }
 
   .button {

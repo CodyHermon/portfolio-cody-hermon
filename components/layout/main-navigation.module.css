@@ -10,18 +10,19 @@
 
 .header a {
   color: var(--color-grey-100);
-  font-size: 24px;
+  font-size: 20px;
   margin-right: 24px;
 }
 
 .activeTab {
-  font-size: 26px !important;
+  font-size: 24px !important;
   color: var(--color-grey-50) !important;
 }
 
 @media (max-width: 768px) {
   .header {
     justify-content: center;
+    height: 4em;
   }
 
   .header ul {
@@ -29,7 +30,11 @@
   }
 
   .header a {
-    font-size: var(--size-5);
+    font-size: 16px;
     margin: 0 8px;
+  }
+
+  .activeTab {
+    font-size: 20px !important;
   }
 }
