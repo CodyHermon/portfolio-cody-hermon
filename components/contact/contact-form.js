@@ -103,7 +103,7 @@ const ContactForm = () => {
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label id='email'>Your Email</label>
+            <label htmlFor='email'>Your Email</label>
             <input
               id='email'
               type='email'
@@ -114,7 +114,7 @@ const ContactForm = () => {
             />
           </div>
           <div className={classes.control}>
-            <label id='name'>Your Name</label>
+            <label htmlFor='name'>Your Name</label>
             <input
               id='name'
               type='text'
@@ -126,7 +126,7 @@ const ContactForm = () => {
           </div>
         </div>
         <div className={classes.control}>
-          <label id='message'>Your Message</label>
+          <label htmlFor='message'>Your Message</label>
           <textarea
             id='message'
             rows='5'
